@@ -68,7 +68,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/django-chatbot.git
+git clone https://github.com/meshtirop1/django-chatbot.git
 cd django-chatbot
 Create a virtual environment:
 
