@@ -1,0 +1,20 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Flask
+instance/
+*.pyc
+__pycache__/
+.env
+
+# General
+.DS_Store
+.vscode/
+env/
+venv/
+.idea/
+*.log

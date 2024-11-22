@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ product.name }} Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        nav {
+            background-color: #0078d7;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            margin: 50px auto;
+            max-width: 800px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0078d7;
+            margin-bottom: 20px;
+        }
+
+        .average-rating {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .review {
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .review h3 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .review p {
+            margin: 5px 0;
+        }
+
+        .review .rating {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0078d7;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/products/shop">Shop</a>
+    </nav>
+
+    <div class="container">
+        <h1>Reviews for {{ product.name }}</h1>
+        <p class="average-rating">Average Rating: {{ average_rating|floatformat:1 }}</p>
+        {% for review in reviews %}
+        <div class="review">
+            <h3>{{ review.user.username }}</h3>
+            <p class="rating">Rating: {{ review.rating }}</p>
+            <p>{{ review.comment }}</p>
+        </div>
+        {% empty %}
+        <p>No reviews yet. Be the first to write one!</p>
+        {% endfor %}
+        <a href="{% url 'add_review' product.id %}">Add a Review</a> |
+        <a href="{% url 'product_detail' product.slug %}">Back to Product</a>
+    </div>
+</body>
+</html>

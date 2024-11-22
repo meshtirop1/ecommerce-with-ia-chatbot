@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c8b0ea49-a4dc-4c9a-a8bf-72cb19444798" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -17,21 +18,182 @@
       <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test_chatbot.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
+=======
+    <list default="true" id="1d557b00-91ee-41c1-9180-e1b03abd138d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5f80ab31-2fc5-478e-8e87-d0b2904670e3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5f80ab31-2fc5-478e-8e87-d0b2904670e3/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-15_at_12.52.07_AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-15_at_12.52.07_AM_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-15_at_12.52.07_AM_3_vZTtCTX.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-15_at_12.52.08_AM_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-15_at_12.52.08_AM_1_nLaOLv9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-15_at_12_UeKePBA.52.07_AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.48_PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.48_PM_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.48_PM_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.49_PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.49_PM_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.49_PM_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/WhatsApp_Image_2024-11-18_at_5.02.49_PM_BCrPyvs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_images/WhatsApp_Image_2024-11-03_at_9.58.13_PM_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_images/WhatsApp_Image_2024-11-03_at_9.58.13_PM_2_9D2VESb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0002_orderitem_price_orderitem_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0003_alter_orderitem_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0004_alter_orderitem_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/0002_product_is_featured.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promotions/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/analytics/popular_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/analytics/total_sales.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/chatbot/chatbot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/cart_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/orders/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/orders/order_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages/privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/payments/payment_confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/payments/payment_process.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/reviews/add_review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/reviews/product_reviews.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+=======
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
     <envs>
       <env key="FLASK_APP" value="app" />
@@ -51,6 +213,22 @@
 }</component>
   <component name="ProjectId" id="2p3LmGrS3ou31kpetCrNn9GGRln" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2oq1qVIQIXtM9Ofx9nuaVK6Ap29" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,17 +236,30 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+<<<<<<< HEAD
     &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
     &quot;Flask server.onebot.executor&quot;: &quot;Run&quot;,
     &quot;Python.manage.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mtiro/Desktop/hdp&quot;,
+=======
+    &quot;Django Server.ecommerce.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mtiro/Desktop/django_chatbot/ecommerce&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+<<<<<<< HEAD
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -80,13 +271,48 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mtiro\Desktop\django_chatbot\ecommerce\static\css\products" />
+      <recent name="C:\Users\mtiro\Desktop\django_chatbot\ecommerce\static" />
+      <recent name="C:\Users\mtiro\Desktop\django_chatbot\ecommerce\static\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ecommerce" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ecommerce" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ecommerce.settings" />
+      </envs>
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
+=======
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
       <method v="2" />
     </configuration>
   </component>
@@ -101,6 +327,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="c8b0ea49-a4dc-4c9a-a8bf-72cb19444798" name="Changes" comment="" />
       <created>1731989970260</created>
       <option name="number" value="Default" />
@@ -116,16 +343,74 @@
       <workItem from="1732110396968" duration="897000" />
       <workItem from="1732159912785" duration="89000" />
       <workItem from="1732247299324" duration="2879000" />
+=======
+      <changelist id="1d557b00-91ee-41c1-9180-e1b03abd138d" name="Changes" comment="" />
+      <created>1731582482590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731582482590</updated>
+      <workItem from="1731582484077" duration="17585000" />
+      <workItem from="1731629250846" duration="8113000" />
+      <workItem from="1731639886667" duration="72000" />
+      <workItem from="1731648464392" duration="4314000" />
+      <workItem from="1731652820675" duration="1029000" />
+      <workItem from="1731654006219" duration="217000" />
+      <workItem from="1731655847856" duration="18720000" />
+      <workItem from="1731715789785" duration="7199000" />
+      <workItem from="1731732119797" duration="2963000" />
+      <workItem from="1731747565189" duration="848000" />
+      <workItem from="1731761825869" duration="12160000" />
+      <workItem from="1731848562080" duration="4891000" />
+      <workItem from="1731898251626" duration="8869000" />
+      <workItem from="1731907169382" duration="1866000" />
+      <workItem from="1731909059064" duration="21183000" />
+      <workItem from="1731974980515" duration="96000" />
+      <workItem from="1731975097839" duration="2950000" />
+      <workItem from="1731978157886" duration="106000" />
+      <workItem from="1731978394984" duration="1524000" />
+      <workItem from="1731981691683" duration="2512000" />
+      <workItem from="1732002152053" duration="778000" />
+      <workItem from="1732003049034" duration="203000" />
+      <workItem from="1732003304749" duration="288000" />
+      <workItem from="1732258215085" duration="696000" />
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/app_py$manage.coverage" NAME="manage Coverage Results" MODIFIED="1732003947378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ecommerce" />
     <SUITE FILE_PATH="coverage/app_py$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1732005586641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/onebot$onebot.coverage" NAME="onebot Coverage Results" MODIFIED="1732002940852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/app_py$onebot.coverage" NAME="onebot Coverage Results" MODIFIED="1732247541368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+=======
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="python:Django" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+    <option featureType="dependencySupport" implementationName="python:confluent-kafka" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/Lib/site-packages/django/db/models/base.py</url>
+          <line>335</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chatbot/utils.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/orders/order_detail.html</url>
+          <line>124</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
   </component>
 </project>

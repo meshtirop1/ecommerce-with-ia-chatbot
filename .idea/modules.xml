@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/onebot.iml" filepath="$PROJECT_DIR$/.idea/onebot.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/ecommerce.iml" filepath="$PROJECT_DIR$/.idea/ecommerce.iml" />
+>>>>>>> dc0489025690d7c8f48cd888f198f50329682e6d
     </modules>
   </component>
 </project>

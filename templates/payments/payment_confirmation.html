@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+    <style>
+        /* Same CSS as payment_process.html */
+        body, nav, footer, .content, h1 { /* Defined earlier */ }
+        .confirmation-details {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .confirmation-details p {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+        .success {
+            color: #27ae60;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">E-Commerce</div>
+        <div>
+            <a href="/orders/history">Order History</a>
+            <a href="/cart_detail">Cart</a>
+            <a href="/checkout">Checkout</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Payment Confirmation</h1>
+        <p class="success">Your payment was successful!</p>
+        <div class="confirmation-details">
+            <p><strong>Payment ID:</strong> {{ payment.transaction_id }}</p>
+            <p><strong>Order ID:</strong> {{ payment.order.id }}</p>
+            <p><strong>Amount Paid:</strong> ${{ payment.amount }}</p>
+            <p><strong>Payment Method:</strong> {{ payment.payment_method }}</p>
+            <p><strong>Status:</strong> {{ payment.status }}</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 E-Commerce Platform - All Rights Reserved
+    </footer>
+</body>
+</html>

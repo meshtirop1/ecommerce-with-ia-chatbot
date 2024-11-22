@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Products</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0078d7;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .content {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #0078d7;
+            margin-bottom: 20px;
+        }
+        .product {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .product:last-child {
+            border-bottom: none;
+        }
+        .product-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .view-count {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0078d7;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Analytics App</div>
+        <div>
+            <a href={% url 'popular_products' %}>Popular Products</a>
+            <a href={% url 'total_sales' %}>Total Sales</a>
+
+            
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Popular Products</h1>
+        <div id="products-container">
+            {% for product in popular_products %}
+            <div class="product">
+                <span class="product-name">{{ product.name }}</span> 
+                <span class="view-count">- {{ product.view_count }} views</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <footer>
+        <div>&copy; 2024 Analytics App - All Rights Reserved</div>
+    </footer>
+</body>
